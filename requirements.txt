@@ -1,0 +1,7 @@
+dbt-core
+psycopg2-binary
+ipykernel
+dbt-snowflake
+dbt-redshift
+dbt-postgres
+dbt-bigquery
