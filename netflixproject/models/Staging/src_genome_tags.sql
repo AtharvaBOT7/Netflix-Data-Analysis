@@ -1,4 +1,4 @@
-WITH raw_movies AS (
+WITH raw_genome_tags AS (
     SELECT * FROM MOVIELENS.RAW.RAW_GENOME_TAGS
 )
 SELECT

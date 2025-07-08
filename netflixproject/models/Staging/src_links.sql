@@ -1,4 +1,4 @@
-WITH raw_movies AS (
+WITH raw_links AS (
     SELECT * FROM MOVIELENS.RAW.RAW_LINKS
 )
 SELECT
