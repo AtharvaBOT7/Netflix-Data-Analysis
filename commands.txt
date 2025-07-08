@@ -9,3 +9,9 @@ the snowflake database.
 
 Then you will be asked to enter the account number, password, warehouse name, database name and schema name, which you can find in 
 snowflake connect to an external tool option in profile settings.
+
+After doing this, we will delete the example models which are created by default in the Models folder by snowflake. 
+We will then create a new folder named Staging, this will be our staging environment. 
+
+After doing this, we will write a SQL script in it and then write dbt run from inside our netflixproject folder to ensure everything is set
+correctly.
