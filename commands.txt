@@ -1,0 +1,2 @@
+You will need to create a new directory inside your project directory named dbt to start the project.
+--> mkdir ~/.dbt
