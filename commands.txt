@@ -1,2 +1,8 @@
 You will need to create a new directory inside your project directory named dbt to start the project.
 --> mkdir ~/.dbt
+
+The next step is to initialise dbt inside the virtual environment.
+--> dbt init netflixproject
+
+Upon executing this step, you will be prompted to enter a number respective to the database you are using, in our case, we will use 
+the snowflake database.
