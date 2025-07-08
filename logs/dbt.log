@@ -22,3 +22,21 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 [0m11:24:43.534713 [info ] [MainThread]: Setting up your profile.
+[0m11:31:58.459414 [info ] [MainThread]: Profile netflixproject written to /Users/atharvabot7/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:31:58.462058 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 434.98062, "process_in_blocks": "0", "process_kernel_time": 0.153229, "process_mem_max_rss": "125763584", "process_out_blocks": "0", "process_user_time": 0.862519}
+[0m11:31:58.462486 [debug] [MainThread]: Command `dbt init` succeeded at 11:31:58.462399 after 434.98 seconds
+[0m11:31:58.462793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106258160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076be280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eb80d0>]}
+[0m11:31:58.463143 [debug] [MainThread]: Flushing usage events
+[0m11:31:58.783693 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:32:48.697744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1080c0130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091613a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109161760>]}
+
+
+============================== 11:32:48.699940 | 5cd60863-caf4-4c82-9434-ff531b2c6bea ==============================
+[0m11:32:48.699940 [info ] [MainThread]: Running with dbt=1.10.3
+[0m11:32:48.700201 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/atharvabot7/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init netflixproject', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:32:48.706359 [info ] [MainThread]: A project called netflixproject already exists here.
+[0m11:32:48.707573 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.03954025, "process_in_blocks": "0", "process_kernel_time": 0.081848, "process_mem_max_rss": "104071168", "process_out_blocks": "0", "process_user_time": 0.555805}
+[0m11:32:48.707774 [debug] [MainThread]: Command `dbt init` succeeded at 11:32:48.707731 after 0.04 seconds
+[0m11:32:48.707951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1080c0130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109138df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109138070>]}
+[0m11:32:48.708128 [debug] [MainThread]: Flushing usage events
+[0m11:32:48.974872 [debug] [MainThread]: An error was encountered while trying to flush usage events

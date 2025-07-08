@@ -6,3 +6,6 @@ The next step is to initialise dbt inside the virtual environment.
 
 Upon executing this step, you will be prompted to enter a number respective to the database you are using, in our case, we will use 
 the snowflake database.
+
+Then you will be asked to enter the account number, password, warehouse name, database name and schema name, which you can find in 
+snowflake connect to an external tool option in profile settings.
