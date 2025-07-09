@@ -11,7 +11,7 @@ tags as (
     select * from {{ ref("dim_genome_tags")}}
 ),
 scores as (
-    select * from {{ ref("dim_genome_scores")}}
+    select * from {{ ref("fct_genome_scores")}}
 )
 
 select 
@@ -21,5 +21,5 @@ select
     t.tag_name,
     s.relevance_score
 from movies m
-left join tags t on m.movie_id = t.movie_id
-left join scores s on t.tag_id = s.tag_id
+left join scores s on m.movie_id = s.movie_id
+left join tags t on s.tag_id = t.tag_id
